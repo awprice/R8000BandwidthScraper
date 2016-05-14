@@ -8,11 +8,11 @@ A Golang command line tool for web scraping the device and bandwidth information
 
 The router ip is pretty self explanatory. It is usually the default gateway in your network.
 
-The auth key is the username and password of your router's login information that has been base64 encoded. And example
+The auth key is the username and password of your router's login information that has been base64 encoded. An example
 of this:
 
-1. Username/password combo: admin:password
-2. Base64 encoded: YWRtaW46cGFzc3dvcmQ=
+1. Username/password combo: `admin:password`
+2. Base64 encoded: `YWRtaW46cGFzc3dvcmQ=`
 
 Note the use of the colon between the username and password. The key can also be found by logging into the admin
 interface and inspecting the traffic between you and the router.
