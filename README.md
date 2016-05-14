@@ -15,7 +15,7 @@ of this:
 2. Base64 encoded: YWRtaW46cGFzc3dvcmQ=
 
 Note the use of the colon between the username and password. The key can also be found by logging into the admin
-interface and inspecting between you and the router.
+interface and inspecting the traffic between you and the router.
 
 ## Things to note
 
